@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%; height: 100vh;
+    /* background-color: #101822; */
+    background-image: linear-gradient(to bottom, #101822 95%, #ff4654 5%);
+    /* clip-path: polygon(0% 0%, 100% 0%, 100% 94%, 0% 100%); */
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@font-face{
+    src: url(../Fonts/Monument_regular.otf);
+    font-family: Monument;
+}
+
+@font-face{
+    src: url(Fonts/inverizon_italic.otf);
+    font-family: Inverizon;
+}
+
+@font-face{
+    src: url(../Fonts/Inversionz.otf);
+    font-family: tatta;
+}
+
+.logo{
+    font-family: Monument;
+    line-height: 80px;
+    padding-left: 40px;
+    font-size: 27px;
+    color: #ff4654;
+}
+
+nav{
+    line-height: 80px;
+    font-size: 28px;
+    text-decoration: none;
+    padding-right: 50px;
+    font-family: tatta;
+}
+
+nav a{
+    color: #ffffff;
+}
+
+nav a:link{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #ff4654;
+}
+
+main{
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-bottom: 200px;
+    color: #ff4654;
+}
+
+main h1{
+    font-size: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+main p{
+    font-size: 25px;
+    font-weight: 250;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 1px;
+}
+
+main a{
+    text-decoration: underline;
+}
+
+footer p{
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 15px;
+    color:  #101822;
+    float: bottom;
+}
